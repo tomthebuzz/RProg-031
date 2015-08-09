@@ -1,7 +1,7 @@
 ## R-Programming #031 - Course Programming Assignment 1 - Air Pollution
 ## T. Debus                                       Aug. 12th 2015
 ##
-## Part 1 - Function PollutionMean
+## Part 1 - Function PollutionMean 
 
 pollutantmean <- function(directory, pollutant, id = 1:332) {
 
@@ -33,5 +33,5 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
   
 }
 
-res <- pollutantmean("specdata", "nitrate", 23)
-print(res)
+## res <- pollutantmean("specdata", "nitrate", 119:123)
+## print(res)
